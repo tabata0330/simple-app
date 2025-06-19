@@ -1,0 +1,6 @@
+site_name: simple-app
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
