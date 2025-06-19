@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: simple-app
+  description: A simple app running on Kubernetes
+  annotations:
+    backstage.io/kubernetes-id: simple-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
