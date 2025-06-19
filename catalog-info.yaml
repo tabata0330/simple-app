@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: simple-app
+  title: simple-app
   description: A simple app running on Kubernetes
   annotations:
     backstage.io/kubernetes-id: simple-app
